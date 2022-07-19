@@ -1,0 +1,58 @@
+.main{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 3vh;
+}
+
+.review__component{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+}
+
+.usr__img{
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.usr__img>img{
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px solid rgb(10, 4, 71);
+    padding: .5vw;
+}
+
+.review{
+    width:50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    margin-left: 3vw;
+    flex-direction: column;
+}
+
+.reviewer__name{
+    font-size: 3vh;
+}
+
+.review__content{
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 3.5vh;
+    color: rgb(255, 0, 0);
+}
+
+.review__stars{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
